@@ -1,0 +1,26 @@
+* {
+    box-sizing: border-box
+}
+
+.container {
+    border: 1px solid black;
+    border-radius: 1rem;
+    margin: 50px auto;
+    padding:1rem;
+    width: 70%
+}
+
+table {
+    border-collapse: collapse;
+    margin: 50px auto;
+    width: 70%
+}
+
+thead {
+    background-color: rgb(49, 139, 49);
+}
+
+td,th {
+    border: 1px solid black;
+    height: 50px;
+}

@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    border:1px solid black;
+    border-radius: 1rem;
+    margin: 50px auto;
+    padding: 2rem;
+    width: 70%;
+}
+
+.buttons {
+    padding: 1rem;
+    text-align: center;
+}
+
+.buttons button {
+    padding: 0.5rem;
+    margin: 0.25rem;
+}
+
+table,.buttons {    
+    margin:0px auto;
+    width: 70%;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+td,th {
+    border: 1px solid black;
+    padding: 1rem;
+}
+
+thead {
+    background-color: rgb(64, 116, 40);
+    color: #FFF;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #AAA;
+}

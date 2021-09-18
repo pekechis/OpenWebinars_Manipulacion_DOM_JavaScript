@@ -1,0 +1,11 @@
+*  {
+    box-sizing: border-box;
+}
+
+.container {
+    border: 1px solid black;
+    border-radius: 1rem;
+    margin: 50px auto;
+    padding: 2rem;
+    width: 60%;
+}

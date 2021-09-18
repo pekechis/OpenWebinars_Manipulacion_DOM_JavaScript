@@ -1,0 +1,24 @@
+* {
+    box-sizing: border-box;
+}
+
+.container {   
+    margin: 50px auto;
+    padding: 2rem;
+    width: 60%;
+}
+
+#bubbling div, #capturing div {    
+    border-radius: 1rem;
+    margin: 20px auto;
+    padding: 2rem;
+    width: 80%;
+}
+
+#bubbling div {
+    border: 5px solid rgb(26, 64, 190);
+}
+
+#capturing div {
+    border: 5px solid rgb(236, 14, 69);
+}

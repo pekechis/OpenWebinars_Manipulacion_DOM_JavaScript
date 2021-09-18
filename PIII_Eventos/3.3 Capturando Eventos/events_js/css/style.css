@@ -1,0 +1,32 @@
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    border:1px solid black;
+    border-radius: 1rem;
+    margin: 50px auto;
+    padding: 2rem;
+    width: 60%;
+}
+
+.container > p {
+    border: 1px solid black;
+    border-radius: 1rem;;
+    margin: 10px auto;
+    padding: 1rem;
+    width: 80;
+}
+
+p#example {
+
+
+}
+
+p#listener {
+
+}
+
+#position {
+    position: absolute;
+}

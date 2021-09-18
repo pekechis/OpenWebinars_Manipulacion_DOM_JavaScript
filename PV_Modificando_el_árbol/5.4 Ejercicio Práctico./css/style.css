@@ -1,0 +1,25 @@
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    border:1px solid black;
+    border-radius: 1rem;
+    margin: 50px auto;
+    padding: 1rem;
+    width: 60%
+}
+
+.controles {
+    text-align: center;
+}
+
+table {
+    border-collapse: collapse;
+    margin: 50px auto;
+    width: 50%;
+}
+
+tr,td {
+    border:1px solid black;
+}

@@ -1,0 +1,72 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  .container {
+    display: flex;
+    margin: 100px auto;
+    width: 80%;
+  }
+  
+  table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  table,
+  td,
+  th {
+    border: 1px solid black;
+  }
+  
+  th {
+    background-color: rgba(77, 77, 77, 0.767);
+    color: white;
+  }
+  
+  .data,
+  .graphics {
+    height: 400px;
+    width: 50%;
+  }
+  
+  .data {
+    padding: 2rem;
+  }
+  
+  .graphics {
+    display: flex;
+    align-items: flex-end;
+  }
+  
+  .graphics > div > div {
+    height: 15px;
+    width: 20%;
+  }
+  
+  .graphics > div {
+    align-items: flex-end;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    width: 25%;
+  }
+  .graphics .names {
+    border-top: 1px solid black;
+    padding-top: 10px;
+    text-align: center;
+    width: 100%;
+  }
+  
+  .year-2008 {
+    background-color: blue;
+  }
+  
+  .year-2009 {
+    background-color: red;
+  }
+  
+  .year-2010 {
+    background-color: green;
+  }
+  

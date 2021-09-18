@@ -1,0 +1,23 @@
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    border:1px solid black;
+    border-radius: 1rem;
+    margin: 50px auto;
+    padding: 1rem;
+    width: 70%;
+}
+
+.gallery {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding:1rem;
+}
+
+.gallery img {
+    margin: 1rem 1rem;
+    width: 15%;
+}
